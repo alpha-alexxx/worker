@@ -46,8 +46,8 @@ async def _upload(c: UtubeBot, m: Message):
         await m.reply_text(tr.NOT_A_VALID_MEDIA_MSG, True)
         return
 
-    if c.counter >= 6:
-        await m.reply_text(tr.DAILY_QOUTA_REACHED, True)
+  #  if c.counter >= 6:
+     #   await m.reply_text(tr.DAILY_QOUTA_REACHED, True)
 
     snt = await m.reply_text(tr.PROCESSING, True)
     c.counter += 1
