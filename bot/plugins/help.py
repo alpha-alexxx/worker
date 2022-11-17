@@ -20,7 +20,7 @@ def map_btns(pos):
         url = auth.GetAuthUrl()
         button = [
             [InlineKeyboardButton(text="<--", callback_data=f"help+{pos-1}")],
-            [InlineKeyboardButton(text="Login URL", url=url)],
+            [InlineKeyboardButton(text="Sign In Here", url=url)],
         ]
     else:
         button = [
@@ -74,6 +74,6 @@ async def _login(c: UtubeBot, m: Message):
     await m.reply_text(
         text=tr.LOGIN_MSG,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Authentication URL", url=url)]]
+            [[InlineKeyboardButton(text="Sign In", url=url)]]
      )
 )
