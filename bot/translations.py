@@ -1,13 +1,12 @@
 class Messages:
 
     START_MSG = (
-        "**__Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me.__** "
-        "**__once you authorise me.You can know more from /help.\nThank you for using Meh 😁**__"
-        "\n\n**__HOW TO USE ME:-\n Watch On YouTube: [Click Here](https://youtu.be/dLCXse6HlaE)__**"
-        "\n **__Watch On Google Drive: [Click Here.](https://drive.google.com/file/d/12qp4VcvBOVwhMIx0O5CtO5VvUbCDeFKs/view)__**"
-        "\n\n**__You can know more from /help.__**"
-        "\n**__Or use /login to get started.__**"
-        "\n\n**__Join @HXBots for More Bots...__**"
+        "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me."
+        "once you authorise me.You can know more from /help\n\n**__This Project was Made @odysseusmax, and fixed me @iankitkr.__**\n\nThank you"
+        
+        
+        "\n\n**__Or use /login to get direct Sign in Button.__**"
+     
     )
 
     HELP_MSG = [
@@ -39,8 +38,8 @@ class Messages:
     ]
 
     LOGIN_MSG = (
-          "**__Ohoo You Want To Login. Great 💚.__**"
-          "\n\n**__You need to give me the access to upload videos to your Youtube account.\n\nFor that open the given button below and allow access and copy the code. Come back here and send your code in this formate:\n /authorise your_code (eg: 4/4waa...).__**"
+          "**__So, You Want To Login. Okay, Let's Rock.__**"
+          "\n\nYou need to give me the access to upload videos to your Youtube account.\n\nFor that open the given button below and allow access and copy the code. Come back here and send your code in this formate:\n `/authorise copied-code` (eg: 4/4waa...)."
     )
 
     NOT_A_REPLY_MSG = "Please reply to some video file."
@@ -53,7 +52,7 @@ class Messages:
 
     PROCESSING = "Processing....."
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. go to /login to authenticate"
 
     NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
 
