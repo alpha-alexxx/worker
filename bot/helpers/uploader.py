@@ -69,6 +69,7 @@ class Uploader:
             )
             description = (
                 Config.VIDEO_DESCRIPTION
+                + "Thank You for watching my channel.\n Like, Share and Subscribe"
             )[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = "private"
@@ -95,7 +96,7 @@ class Uploader:
             self.status = True
             self.message = (
                 f"Title: {title}\n Link: https://youtu.be/{video_id}"
-                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@HxBots | [@oVo-HxBots](https://github.com/oVo-HxBots)**"
+                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@alpha-alexxx | @odysseusmax \n**[@odysseusmax](https://github.com/odysseusmax/) | [@alpha-alexxx](https://github.com/alpha-alexxx/)**"
             )
         except Exception as e:
             log.error(e, exc_info=True)
